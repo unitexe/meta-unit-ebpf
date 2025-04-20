@@ -1,1 +1,3 @@
-require linux-yocto.inc
+FILESEXTRAPATHS:prepend := "${THISDIR}/files:"
+
+require unit-ebpf.inc
